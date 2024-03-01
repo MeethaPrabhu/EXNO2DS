@@ -75,6 +75,7 @@ df.Pclass.unique()
 df.rename(columns = {'Sex':"Gender"},inplace=True)
 df
 ```
+```
 sns.catplot(x="Gender",col="Survived",kind="count",data=df,height=5,aspect=.7)
 ```
 ![alt text](image-9.png)
